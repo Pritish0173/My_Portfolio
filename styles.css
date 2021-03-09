@@ -23,9 +23,10 @@
         border-bottom: 1px solid black;
   }
 
-  #th-color{
+  .th-color{
       background-color: skyblue;
-  }  
+  } 
+   
 
   .para {
     color: darkred;
@@ -65,7 +66,7 @@
       padding: 50px;
       margin-left: 10%;
       font-family: 'Trebuchet MS';
-      font-size: 200%;
+      font-size: 150%;
       background-color: rgb(255, 255, 255);
   }
 
@@ -87,7 +88,7 @@
     text-indent: 10%;
     font-family: Georgia;
     font-size: 200%;
-    background-color: darkcyan;
+    background-color: cornflowerblue;
     position: relative;
     /* margin-left: 5%; */
  }
@@ -101,7 +102,7 @@
 
  #qualificationheader {
      background-image: url("Choosing-the-right-qualification.jpg");
-     padding: 100px;
+     padding: 70px;
      /* height: 300px; */
      color: aliceblue;
      text-align: center;
@@ -109,4 +110,34 @@
      font-size: 200%;
      background-color: darkcyan;
      text-indent: 10%;
+ }
+
+ #projectheader {
+    background-image: url("projects.png");
+    padding: 150px;
+    /* height: 300px; */
+    color: aliceblue;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 200%;
+    background-color: darkcyan;
+    text-indent: 10%;
+ }
+
+ #contactme {
+    background-image: url("Contact.jpg");
+    padding: 80px;
+    /* height: 300px; */
+    color: aliceblue;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 200%;
+    background-color: darkcyan;
+    text-indent: 20%;
+ }
+
+ @media (max-width: 900px) {
+     #photo {
+         display: none;
+     }
  }
