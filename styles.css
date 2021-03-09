@@ -1,4 +1,33 @@
-.para {
+
+  body 
+  {
+      background-color: rgb(88, 85, 85);
+  }
+
+  h3{
+      font-family: 'Lucida Sans';
+  }
+
+  table{
+        background-color: lightgray;
+        border-color: darkred;
+        text-align: center;
+        margin-left: 15%;
+        width: 70%;
+        border-collapse: collapse;
+  }
+
+  th,td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid black;
+  }
+
+  #th-color{
+      background-color: skyblue;
+  }  
+
+  .para {
     color: darkred;
     background-color: moccasin;
     font-family: 'Times New Roman';
@@ -7,6 +36,7 @@
     font-size: x-large;
     margin-left: 10%;
   }
+
   .box {
       color : rgb(0, 14, 92);
       background-color: seashell;
@@ -16,33 +46,11 @@
       border: 15px solid darkred;
       padding: 5px;
       margin-left: 25%;
-  }
-  body 
-  {
-      background-color: rgb(88, 85, 85);
-  }
-  h3{
-      font-family: 'Lucida Sans';
-  }
-  table{
-        background-color: lightgray;
-        border-color: darkred;
-        text-align: center;
-        margin-left: 15%;
-        width: 70%;
-        border-collapse: collapse;
-  }
-  th,td {
-        padding: 8px;
-        text-align: left;
-        border-bottom: 1px solid black;
-  }
-  #th-color{
-      background-color: skyblue;
-  }             
+  }     
+
  .header {
      padding-bottom: 50px;
-     height: 300px;
+     /* height: 300px; */
      color: aliceblue;
      text-align: center;
      font-family: Georgia;
@@ -50,6 +58,7 @@
      background-color: darkcyan;
                     
   }
+
   .box-table{
       width: 80%;
       border: 15px solid darkred;
@@ -59,6 +68,7 @@
       font-size: 200%;
       background-color: rgb(255, 255, 255);
   }
+
   a :hover {
       color: rgb(255, 4, 4);
   }
@@ -69,3 +79,34 @@
       background-color: white;
       margin-right: 65%;
   }
+
+  #aboutheader {
+    padding: 10px;
+    /* height: 300px; */
+    color: aliceblue;
+    text-indent: 10%;
+    font-family: Georgia;
+    font-size: 200%;
+    background-color: darkcyan;
+    position: relative;
+    /* margin-left: 5%; */
+ }
+
+ #photo {
+     float: right;
+     position: relative;
+     top: -235px;
+     margin-right: 15%;
+ }
+
+ #qualificationheader {
+     background-image: url("Choosing-the-right-qualification.jpg");
+     padding: 100px;
+     /* height: 300px; */
+     color: aliceblue;
+     text-align: center;
+     font-family: Georgia;
+     font-size: 200%;
+     background-color: darkcyan;
+     text-indent: 10%;
+ }
