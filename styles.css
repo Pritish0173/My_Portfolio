@@ -13,19 +13,29 @@
         border-color: darkred;
         text-align: center;
         margin-left: 15%;
-        width: 70%;
+        width: 72%;
         border-collapse: collapse;
+        font-size: 120%;
+
   }
 
   th,td {
         padding: 8px;
         text-align: left;
         border-bottom: 1px solid black;
+
   }
 
   .th-color{
       background-color: skyblue;
+      font-weight: bolder;
+      font-size: 120%;
   } 
+
+  .td-color{
+    background-color: bisque;
+    font-size: 120%;
+} 
    
 
   .para {
@@ -33,9 +43,11 @@
     background-color: moccasin;
     font-family: 'Times New Roman';
     font-size: large;
-    padding-left: 10px;
+    padding: 10px;
     font-size: x-large;
-    margin-left: 10%;
+    margin-left: 15%;
+    border: 15px solid darkred;
+    width: 69%;
   }
 
   .box {
@@ -43,10 +55,10 @@
       background-color: seashell;
       text-align: left;
       font-size: 150%;
-      width: 50%;
+      width: 70%;
       border: 15px solid darkred;
       padding: 5px;
-      margin-left: 25%;
+      margin-left: 15%;
   }     
 
  .header {
@@ -61,13 +73,14 @@
   }
 
   .box-table{
-      width: 80%;
+      width: 72%;
       border: 15px solid darkred;
       padding: 50px;
-      margin-left: 10%;
+      margin-left: 15%;
       font-family: 'Trebuchet MS';
       font-size: 150%;
       background-color: rgb(255, 255, 255);
+
   }
 
   a.active,a :hover {
@@ -78,11 +91,11 @@
       font-size: 200%;
       color: rgb(26, 56, 153);
       background-color: white;
-      margin-right: 65%;
+      margin-right: 60%;
   }
 
   #aboutheader {
-    padding: 10px;
+    padding: 2%;
     /* height: 300px; */
     color: aliceblue;
     text-indent: 10%;
@@ -91,6 +104,9 @@
     background-color: cornflowerblue;
     position: relative;
     /* margin-left: 5%; */
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
  }
 
  #photo {
@@ -102,14 +118,17 @@
 
  #qualificationheader {
      background-image: url("Choosing-the-right-qualification.jpg");
-     padding: 70px;
+     padding: 7%;
      /* height: 300px; */
      color: aliceblue;
-     text-align: center;
+     text-align: right;
      font-family: Georgia;
-     font-size: 200%;
-     background-color: darkcyan;
-     text-indent: 10%;
+     font-size: 150%;
+     background-color: #2d9797;
+     /* text-indent: 5%; */
+     background-repeat:no-repeat;
+     background-size:contain;
+     background-position:center;
  }
 
  #projectheader {
@@ -120,51 +139,51 @@
     text-align: center;
     font-family: Georgia;
     font-size: 200%;
-    background-color: darkcyan;
+    background-color: #a2dbf8;
     text-indent: 10%;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
  }
 
  #contactme {
     background-image: url("Contact.jpg");
-    padding: 80px;
+    padding: 4%;
     /* height: 300px; */
     color: aliceblue;
-    text-align: center;
+    text-align: right;
     font-family: Georgia;
     font-size: 200%;
-    background-color: darkcyan;
-    text-indent: 20%;
+    background-color: #266590;
+    /* text-indent: 40%; */
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
  }
 
- @media (max-width: 900px) {
+ @media (max-width: 800px) {
      #photo {
          display: none;
      }
  }
 
  
-    nav ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
+ nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+ }
 
-    nav ul li {
-        float: left;
-    }
+ nav ul li {
+    float: left;
+ }
 
-    nav ul li a{
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    nav{
-        background: rgb;
-        height: 80px;
-        width: 100%;
-    }
+ nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
