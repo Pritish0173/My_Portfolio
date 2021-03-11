@@ -1,7 +1,8 @@
 
   body 
   {
-      background-color: rgb(88, 85, 85);
+      /* background-color: rgb(88, 85, 85); */
+      background-image: url("https://i.pinimg.com/originals/59/e7/58/59e758cd94b6a989aa2cc7b4eeb68098.jpg");
   }
 
   h3{
@@ -10,7 +11,8 @@
 
   table{
         background-color: lightgray;
-        border-color: darkred;
+        /* border-color: darkred; */
+        border: 15px solid darkred;
         text-align: center;
         margin-left: 15%;
         width: 72%;
@@ -118,7 +120,7 @@
 
  #qualificationheader {
      background-image: url("Choosing-the-right-qualification.jpg");
-     padding: 7%;
+     padding: 6%;
      /* height: 300px; */
      color: aliceblue;
      text-align: right;
@@ -148,7 +150,7 @@
 
  #contactme {
     background-image: url("Contact.jpg");
-    padding: 4%;
+    padding: 5%;
     /* height: 300px; */
     color: aliceblue;
     text-align: right;
